@@ -1,0 +1,143 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 14px;
+}
+
+.main-box {
+  display: flex;
+  background-color: white;
+  height: 450px;
+  width: 600px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.image img {
+  border-radius: 12px 0 0 12px;
+  height: 450px
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 30px;
+}
+
+.perfume {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 36px;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color:hsl(228, 12%, 48%);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 36px;
+  color: hsl(158, 36%, 37%);
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  height: 50px;
+  border-radius: 8px;
+  color:hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color:rgb(43, 83, 68);
+}
+
+button img {
+  margin-right: 10px;
+}
+
+.attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color:hsl(212, 21%, 14%);
+  font-weight: 500;
+}
+
+.attribution a {
+  color:hsl(158, 36%, 37%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.attribution a:hover {
+  color:rgb(43, 83, 68);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 25px;
+  }
+
+  .main-box {
+    flex-direction: column;
+    width: 375px;
+    height: fit-content;
+  }
+
+  .image img {
+    width: 375px;
+    height: 300px;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .info {
+    height: 400px;
+  }
+}
+
