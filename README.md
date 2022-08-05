@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/productpreviewcard-html-css-wY3C6EGZEv)
 - Live Site URL: [Netlify](https://incandescent-marshmallow-a0e2d4.netlify.app/)
 
 ## My process
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@coc0dev](https://www.frontendmentor.io/profile/coc0dev)
 
